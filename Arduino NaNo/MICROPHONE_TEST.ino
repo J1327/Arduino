@@ -1,3 +1,22 @@
+// Arduino NaNo 328P
+// quick heads up
+
+//    Mic Type 4 --> nano
+//  DO --> A3 (Optional , am not using it else were)
+//  + --> V5 or 3V3
+//  G --> GND
+//  A0 --> A0
+
+//  OR
+
+//    Mic Type 3 --> nano  (mostly using this type , so it is well worn and out of order now..)
+//  OUT --> A0
+//  GND --> GND
+//  VCC --> V5 or 3V3
+
+//NOTE TO : OPEN UP TOOLS > SERIAL MONITOR
+
+//CONFIG
 // hook up the out of the mic to analog input A0
 #define MIC_IN A0
 
